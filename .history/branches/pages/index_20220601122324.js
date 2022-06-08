@@ -1,6 +1,7 @@
+import CircleNavigation from '../components/CircleNavigation'
 import Head from 'next/head'
+import styles from '../styles/Home.module.css'
 import { motion } from "framer-motion"
-import Landing from '../components/Landing'
 
 export default function Home() {
     
@@ -13,7 +14,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Landing />
+        <CircleNavigation />
       </main>
     </div>
   )

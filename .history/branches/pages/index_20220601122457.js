@@ -1,4 +1,6 @@
+
 import Head from 'next/head'
+import styles from '../styles/Home.module.css'
 import { motion } from "framer-motion"
 import Landing from '../components/Landing'
 

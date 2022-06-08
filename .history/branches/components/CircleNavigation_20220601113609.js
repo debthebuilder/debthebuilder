@@ -1,0 +1,25 @@
+import Image from "next/image";
+import Deb from "../deb.jpg";
+
+export default function CircleNavigation() {
+    return(
+        <div className="flex w-full h-full flex-row">
+            <div className="w-1/3 relative group cursor-pointer  h-screen flex items-center justify-center">
+                <div className="absolute">
+                    <div className="hidden group-hover:block">
+                        <Image src={Deb}  alt="Deb the Builder"  />
+                    </div>
+                </div>
+                <div className="z-50 backdrop-opacity-10 backdrop-invert bg-white/30">
+                    <h2 className="group-hover:font-black group-hover:text-5xl group-hover:text-stone-50">Deb</h2></div>
+            </div>
+            <div className="w-1/3 relative bg-stone-100 h-screen flex items-center justify-center">
+                <div>the <span>builder</span></div>
+            </div>
+            <div className="w-1/3 relative  h-screen flex items-center justify-center">
+                
+                <div>the <span>instructor</span></div>
+            </div>
+        </div>
+    )
+}
