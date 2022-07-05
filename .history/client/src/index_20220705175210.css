@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+.logo {
+  font-family: 'Alfa Slab One', cursive;
+}
+.title::before {
+  /* font-family: 'Alfa Slab One', cursive; */
+  content: "Geeks";
+            animation:   animate infinite .4s;
+           
+        }
+  
+        @keyframes animate {
+  
+            0% {
+                content: "Builder";
+            }
+  
+            50% {
+                content: "Instructor";
+            }
+  
+            75% {
+                content: "Weeb";
+            }
+            75% {
+                content: "Foodie";
+            }
+        }
