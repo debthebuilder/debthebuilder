@@ -29,7 +29,7 @@ const Footer = () => {
               
         </div>
         <div className="flex flex-row justify-center py-3">
-                <span className="tracking-wider  dark:text-white text-sm text-center">Be you <span className="text-red-500">&hearts;</span> </span> 
+                <span className="tracking-wider  dark:text-sm text-center">Be you <span className="text-red-500">&hearts;</span> </span> 
               </div>
       </>
         
