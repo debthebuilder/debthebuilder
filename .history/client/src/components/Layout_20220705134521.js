@@ -1,3 +1,0 @@
-const Layout = ({ children }) => {
-    return
-}

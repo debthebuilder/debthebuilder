@@ -1,9 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-
-.logo {
-  font-family: 'Alfa Slab One', cursive;
-}
-.title

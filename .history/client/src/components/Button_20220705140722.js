@@ -1,5 +1,0 @@
-const Button = (props) => {
-    return{
-        
-    }
-}
